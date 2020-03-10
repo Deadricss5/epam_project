@@ -11,7 +11,7 @@ region = "your region"
 ```
 
 ## Bash script
-You need add path to the folder that contain .tfstate file as script argument and set path to yours .pem key in bash script to allow Ansible connect to your instances via ssh.
+You need add path to the folder that contain ***.tfstate*** file as script argument and set path to yours .pem key in bash script to allow Ansible connect to your instances via ssh.
 ```shell
 /home/user/epam_project/hosts_gen.sh /home/user/terraform/
 ```
