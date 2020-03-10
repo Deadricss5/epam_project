@@ -16,7 +16,7 @@ You need add path to the folder that contain ***.tfstate*** file as script argum
 /home/user/epam_project/hosts_gen.sh /home/user/terraform/
 ```
 
-### After that all tools will work correct.
+### After that, all tools will work correct
 ```shell
 #move to terraform directory
 cd /home/user/epam_project/terraform
