@@ -1,7 +1,7 @@
 # EPAM external course final project 2020/Q1
 
 ## Terraform
-For terraform will work correct you need to add next variables, ***secret_key***, ***access_key*** and ***region*** in **provider** section or as your environment variables
+For terraform will work correct you need to add next variables, ***secret_key***, ***access_key*** and ***region*** in **provider** section in centos.tf file or as your environment variables
 ```shell
 provider "aws" {
 access_key = "your key"
