@@ -11,4 +11,4 @@ aws_slave
 
 [aws:vars] 
 ansible_user=centos
-ansible_ssh_private_key_file=/path/to/your/key.pem #path to your key
+ansible_ssh_private_key_file=/path/to/your/key.pem" > /home/user/epam_project/ansible/hosts
