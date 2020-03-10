@@ -1,0 +1,16 @@
+---
+- hosts: aws_slave
+  gather_facts: false
+  become: true
+  roles:
+    - git
+    - docker
+    - java
+    - reboot
+  
+- hosts: aws_master
+  gather_facts: false
+  become: true
+  roles:
+    - git
+    - jenkins

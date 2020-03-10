@@ -1,0 +1,10 @@
+---
+- name: mkdir /home/centos/jenkins
+  file:
+    path: /home/centos/jenkins
+    state: directory
+
+#- name: mkdir /home/centos/www
+#  file:
+#    path: /home/centos/www
+#    state: directory

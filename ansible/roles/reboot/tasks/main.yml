@@ -1,0 +1,3 @@
+---
+- name: Restart server
+  command: /sbin/shutdown -r +1
